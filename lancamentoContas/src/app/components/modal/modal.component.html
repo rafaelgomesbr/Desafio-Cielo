@@ -1,0 +1,24 @@
+<div class="modal-header">
+    <h4 class="modal-title">Detalhes</h4>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <mat-list>
+    <mat-list-item > Cliente: {{rowTable.cliente}} </mat-list-item>
+    <mat-list-item > id: {{rowTable.id}} </mat-list-item>
+    <mat-list-item > Bandeira: {{rowTable.cardBrand}} </mat-list-item>
+    <mat-list-item > Cod. Autorização: {{rowTable.authorizationCode}} </mat-list-item>
+    <mat-list-item > Valor bruto: {{rowTable.grossAmount}} </mat-list-item>
+    <mat-list-item > Valor líquido: {{rowTable.netAmount}} </mat-list-item>
+    <mat-list-item > Terminal: {{rowTable.terminal}} </mat-list-item>
+    <mat-list-item > Taxa de administração: {{rowTable.administrationFee}} </mat-list-item>
+    <mat-list-item > Código do canal: {{rowTable.channelCode}} </mat-list-item>
+    <mat-list-item > Canal: {{rowTable.channel}} </mat-list-item>
+    <mat-list-item > Id do comerciante: {{rowTable.merchantId}} </mat-list-item>
+    <mat-list-item > Retirar montante: {{rowTable.withdrawAmount}} </mat-list-item>
+</mat-list>
+  
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="activeModal.close('Close click')">Close</button>
+  </div>

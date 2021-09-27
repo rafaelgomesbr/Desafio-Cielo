@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 16px;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+  justify-content: space-between;
+}
+.flex-row {
+  flex-direction: row;
+}
+
+.logo {
+  max-height: 25px;
+  max-width: 52px;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.title {
+  color: var(--cinza-cielo);
+  font-size: 20px;
+  padding-bottom: 25px;
+  padding-top: 28px;
+  padding-right: 20px;
+  font-weight: 300;
+}
+
+.button-group {
+  color: var(--cinza-cielo);
+}
+
+.low-shadow {
+  box-shadow: 0 0.9rem 0.9rem 0 rgba(58, 59, 69, 0.055);
+}
